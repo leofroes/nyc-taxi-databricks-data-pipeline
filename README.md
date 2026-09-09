@@ -225,22 +225,17 @@ The lineage graph makes it possible to trace the dependencies between the raw da
 nyc-taxi-databricks-data-pipeline/
 │
 ├── notebooks/
-│   ├── 01_ingestion_bronze.ipynb
-│   ├── 02_transformation_silver.ipynb
-│   ├── 03_analytics_gold.ipynb
-│   ├── 04_structured_streaming.ipynb
-│   ├── 05_optimization.ipynb
-│   └── 06_unity_catalog_governance.ipynb
-│
-├── docs/
-│   ├── architecture_batch.png
-│   ├── architecture_streaming.png
-│   └── unity_catalog_lineage.png
+│   ├── 01_Exploracao_Dados.ipynb
+│   ├── 02_Ingestao_Camada_Bronze.ipynb
+│   ├── 03_Transformacoes_Camada_Silver.ipynb
+│   ├── 04_Camada_Gold.ipynb
+│   ├── 05_Streaming.ipynb
+│   ├── 06_Otimizacao.ipynb
+│   └── 07_Governanca_Unity_Catalog.ipynb
 │
 ├── README.md
 ├── .gitignore
 └── LICENSE
-```
 
 ## What I Learned
 
